@@ -55,10 +55,10 @@ function App() {
           ref={todoRef}
         />
 
-        <button
+        <button  onClick={addItem}
           type="button"
           className='border shadow-md px-6'
-        ><img src={add} alt="Add" onClick={addItem} /></button>
+        ><i class="fa-solid fa-plus"></i></button>
       </div>
 
       <div className='w-100 flex flex-col items-center'>
